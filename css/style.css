@@ -1,0 +1,125 @@
+/* MY STYLES */
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Playfair Display", sans-serif;
+  --primary-color: #5e3bee;
+  --secondary-accent-color: purple;
+  --red: red;
+  --bs-primary-rgb: 94, 59, 238;
+  --bs-btn-bg: #5e3bee !important;
+  --bs-blue: #5e3bee !important;
+
+  --header-height: 68px;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  /* padding-left: 85px; */
+  /* padding-right: 85px; */
+  /* padding-top: 15px; */
+  /* padding-bottom: 15px; */
+  background-color: white;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px; */
+}
+
+header nav ul li {
+  text-align: center;
+}
+
+header nav ul li a:active,
+header nav ul li a:hover {
+  color: var(--primary-color) !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+section#hero {
+  background-color: #f5fcff;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  margin-bottom: 60px;
+
+  /* max-height: 1000px; */
+  /* height: calc(100vh - var(--header-height)); */
+}
+
+@media screen and (min-width: 768px) {
+  section#hero {
+    /* height: calc(100vh - var(--header-height)); */
+    padding: 100px 0px;
+  }
+}
+
+.description {
+  color: #828282;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  /* text-transform: uppercase; */
+  /* font-weight: bold; */
+}
+
+
+.skill-cards .skill-card {
+  background-color: #f5fcff;
+  padding: 32px;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.skill-cards .skill-card > p {
+  color: #1c1e53;
+}
+
+.skill-cards .skill-card h5 {
+  margin-bottom: 20px;
+  font-size: 20px !important;
+  background-color: #f5fcff;
+}
+
+.mb-100 {
+  margin-bottom: 40px;
+}
+
+section#about,
+section#skills,
+section#contact-form,
+section#projects {
+  margin-bottom: 60px;
+}
+
+@media screen and (min-weight: 768px) {
+  section#about,
+  section#skills,
+  section#contact-form,
+  section#projects {
+    margin-bottom: 140px;
+  }
+  .mb-100 {
+    margin-bottom: 100px;
+  }
+}
+
+.project-card {
+  /* box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px; */
+  text-align: center;
+}
